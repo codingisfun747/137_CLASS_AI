@@ -24,7 +24,7 @@ function modelLoaded(){
     video.volume(0);
 }
 
-function gotResults(error, results) {
+function gotResult(error, results) {
     if (error) {
         console.log(error);
     }
